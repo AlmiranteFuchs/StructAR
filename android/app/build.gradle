@@ -57,6 +57,10 @@ flutter {
 
 dependencies {
     implementation project(':unityLibrary')
-
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation project(':arcore_client')
+    implementation project(':unityandroidpermissions')
+    implementation project(':UnityARCore')
+
 }

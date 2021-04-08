@@ -13,3 +13,12 @@ apply from: "$flutterSdkPath/packages/flutter_tools/gradle/app_plugin_loader.gra
 
 include ":unityLibrary"
 project(":unityLibrary").projectDir = file("./unityLibrary")
+
+include ":arcore_client"
+project(":arcore_client").projectDir = file("./arcore_client")
+
+include ":unityandroidpermissions"
+project(":unityandroidpermissions").projectDir = file("./unityandroidpermissions")
+
+include ":UnityARCore"
+project(":UnityARCore").projectDir = file("./UnityARCore")
