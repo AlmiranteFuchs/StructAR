@@ -15,10 +15,10 @@ include ":unityLibrary"
 project(":unityLibrary").projectDir = file("./unityLibrary")
 
 include ":arcore_client"
-project(":arcore_client").projectDir = file("./arcore_client")
+project(":arcore_client").projectDir = file("./unityLibrary")
 
 include ":unityandroidpermissions"
-project(":unityandroidpermissions").projectDir = file("./unityandroidpermissions")
+project(":unityandroidpermissions").projectDir = file("./unityLibrary")
 
 include ":UnityARCore"
-project(":UnityARCore").projectDir = file("./UnityARCore")
+project(":UnityARCore").projectDir = file("./unityLibrary")
