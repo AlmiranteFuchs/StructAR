@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         key: _scaffoldKey,
         appBar: AppBar(
-          title: const Text('StructAr -- v2.3.5'),
+          title: const Text('StructAr -- v2.5.7'),
         ),
         body: Card(
           margin: const EdgeInsets.all(8),
@@ -117,6 +117,7 @@ class _MyAppState extends State<MyApp> {
   void btnToggleAR() {
     _unityWidgetController.postMessage('GameManager', 'ToggleAR', swapAR);
     swapAR = !swapAR;
+    print(swapAR);
   }
 
   void toggleDrawer() async {

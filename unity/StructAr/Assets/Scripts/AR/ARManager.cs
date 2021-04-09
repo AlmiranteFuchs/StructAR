@@ -218,6 +218,7 @@ public class ARManager : MonoBehaviour {
         vrMarkers[0].transform.LookAt (targetPostition);
         vrMarkers[0].transform.Rotate (0, 270, 0);
 
+        obj.transform.SetParent(null);
         arMarkers[0].SetActive (false);
         arMarkers[1].SetActive (false);
         vrMarkers[0].SetActive (false);
